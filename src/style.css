@@ -1,0 +1,151 @@
+html {
+    padding-top: 80px
+}
+
+body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif
+}
+
+.navbar {
+    background: #41C696
+}
+
+.navbar-brand {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800
+}
+
+header {
+    color: #41C696;
+    font-family: "Nunito", sans-serif
+}
+
+header h1 {
+    font-weight: 800
+}
+
+#list .card {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #41C696;
+    margin-bottom: 1.5rem;
+    box-shadow: 10px 10px #41C696;
+    transition: all .3s ease-in-out;
+}
+
+#list .card:hover {
+    box-shadow: none;
+}
+
+#list .card .number {
+    color: #fffffe;
+    background: #41C696;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 5px;
+    padding: 6px 15px;
+}
+
+#list .card .title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+#list .card h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#list .card .arti {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 600
+}
+
+#list .card .info {
+    font-weight: 600
+}
+
+footer {
+    background: #41C696;
+    color: #fffffe;
+    padding: 1.3rem;
+    text-align: center
+}
+
+footer p {
+    margin: 0 auto
+}
+
+footer p a {
+    color: #fffffe;
+    text-decoration: none
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #b8c1ec
+}
+
+.btn-baca {
+    background: #41C696;
+    font-family: "Nunito", sans-serif;
+    border-radius: 8px;
+    border: 2px solid #41C696;
+    color: #fffffe;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.btn-baca:hover {
+    background: #fffffe;
+    color: #41C696;
+    border: 2px solid #41C696
+}
+
+.btn-tafsir {
+    background: #b8c1ec;
+    font-family: "Nunito", sans-serif;
+    border-radius: 8px;
+    border: 2px solid #b8c1ec;
+    color: #41C696;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.btn-tafsir:hover {
+    background: #fffffe;
+    color: #41C696;
+    border: 2px solid #41C696
+}
+
+.btn-play {
+    background: #41C696;
+    font-family: "Nunito", sans-serif;
+    border-radius: 8px;
+    border: 2px solid #41C696;
+    color: #fffffe;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.btn-play:hover {
+    background: #fffffe;
+    color: #41C696;
+    border: 2px solid #41C696
+}
