@@ -25,7 +25,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h1 class="title">
-                                    <span>{surah.number}</span>
+                                    <span class="number">{surah.number}</span>
                                     {surah.asma.id.short}
                                     ({surah.asma.ar.short})
                                 </h1>
@@ -37,11 +37,11 @@
                                 </p>
                                 <a
                                     href="/surah/{surah.number}"
-                                    >Baca Surah</a
+                                    class="btn btn-baca">Baca Surah</a
                                 >
                                 <button
                                     type="button"
-                                   
+                                    class="btn btn-tafsir"
                                     data-bs-toggle="modal"
                                     data-bs-target="#tafsirModal{surah.number}"
                                     >Tafsir</button
