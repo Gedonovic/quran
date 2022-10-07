@@ -24,7 +24,7 @@
 
             <input 
             type="search" id="default-search"
-            style="padding: 15px 50px; 
+            style="padding: 15px 10px; 
                     margin: 10px 50px 10px 0;
                     border-radius: 100px;
                     text-align: center;
