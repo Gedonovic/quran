@@ -45,12 +45,15 @@
                                     <span>{ayat.text.ar}</span>
                                     <p>{ayat.text.read}</p>
                                 </h1>
-                                <p >
+                                <p class="translate">
                                     <span class="number-ayat"
                                         >{ayat.number.insurah}</span
                                     >{ayat.translation.id}
                                 </p>
-                                
+                                <audio controls src={ayat.audio.url}>
+                                    Your browser does not support the
+                                    <code>audio</code> element.
+                                </audio>
                             </div>
                         </div>
                     </div>
